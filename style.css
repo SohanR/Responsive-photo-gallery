@@ -16,3 +16,36 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+/*.intro::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+h1{
+    
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#ff4b1f, #1fddff);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.mytext{
+    width: 100%;
+    font-family: 'Courgette', cursive;
+    padding: 50px;
+    background: -webkit-linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 30px;
+}
+p{
+    padding-top: 8px;
+}
+
+header{
+    margin: 100px 0 200px 120px;
+}
