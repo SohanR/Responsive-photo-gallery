@@ -138,3 +138,48 @@ footer a{
 footer a:hover{
     color: aquamarine;
 }
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 991px){
+    header{
+        text-align: left;
+        margin: 100px 0 100px 30px;
+    }
+
+    header h1{
+        font-size: 36px;
+    }
+    
+    header p{
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .container1 img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .container2 img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .container3 img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .container4 img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .container5 img{
+        margin: 2%;
+        width: 90%;
+    }
+}
