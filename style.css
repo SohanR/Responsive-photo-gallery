@@ -29,6 +29,7 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     background: -webkit-linear-gradient(#ff4b1f, #1fddff);
+    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -38,6 +39,7 @@ h1{
     font-family: 'Courgette', cursive;
     padding: 50px;
     background: -webkit-linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    font-size: 30px;
@@ -112,7 +114,7 @@ header{
 .box:hover{
     flex: 1 1 50%;
 }
-.box:hover . img{
+.box:hover .img{
     width: 100%;
     height: 100%;
 }
