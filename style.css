@@ -49,3 +49,27 @@ p{
 header{
     margin: 100px 0 200px 120px;
 }
+
+
+
+
+
+
+footer{
+    text-align: center;
+    color: rgb(68, 182, 211);
+    margin: 60px auto;
+}
+
+footer .heart{
+    color: red;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1fddff;
+}
+
+footer a:hover{
+    color: aquamarine;
+}
